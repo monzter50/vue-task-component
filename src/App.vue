@@ -2,7 +2,7 @@
   <div id="app">
     <div class="grid-container">
         <Header/>      
-        <Aside :list="list"/>
+        <!-- <Aside :list="list"/> -->
         <Main/>
         <Footer msg="Welcome to Your Vue.js App"/>
     </div>
@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import Footer from './components/Footer.vue';
-import Aside from './components/Aside';
-import Main from './components/Main';
-import Header from './components/Header';
+import Footer from './components/Shared/Footer.vue';
+import Aside from './components/Shared/Aside';
+import Main from './components/Shared/Main';
+import Header from './components/Shared/Header';
 
 export default {
   name: 'app',
